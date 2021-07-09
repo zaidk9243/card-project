@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Card View</title>
+    <Style>
+        * {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: hsl(233, 47%, 7%);
+}
+.container {
+  background-color: hsl(244, 38%, 16%);
+  width: 900px;
+  height: 360px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  color: white;
+  border-radius: 7px;
+}
+.container img {
+  width: 435.8px;
+
+  border-bottom-right-radius: 7px;
+  border-top-right-radius: 7px;
+  filter: invert(22%) sepia(24%) saturate(950%) hue-rotate(231deg)
+    brightness(59%) contrast(120%);
+}
+.content {
+  width: 418px;
+  height: 250px;
+  padding: 60px;
+}
+.main-heading h1 {
+  font-size: 35px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+}
+.main-para {
+  text-align: justify;
+}
+.insight {
+  color: #aa5cdb;
+  display: inline-block;
+}
+.main-para p {
+  font-size: 12px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.6);
+  margin-top: 20px;
+  margin-bottom: 40px;
+  word-spacing: 1.5px;
+  line-height: 20px;
+  letter-spacing: 0.15px;
+}
+.card {
+}
+.card p {
+  display: inline-block;
+  margin: 8px 31.5px;
+  justify-content: space-between;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  position: relative;
+  left: -33px;
+}
+.card2 {
+  margin: 0;
+  padding: 0;
+  line-height: 0px;
+}
+.card2 p {
+  display: inline-block;
+  position: relative;
+  left: -23px;
+  margin: 0 22px;
+  line-height: 0px;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 8px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: hsla(0, 0%, 100%, 0.6);
+  text-align: center;
+}
+
+    </Style>
+</head>
+
+<body>
+    <div class="container">
+        <img align="right" src="./images/image-header-desktop.jpg" alt="some employess working in office">
+
+        <div class="content">
+            <div class="main-heading">
+                <h1>Get <p class="insight">insights</p> that help your business grow.</h1>
+            </div>
+
+            <div class="main-para">
+                <p> Discover the benefits of data analytics and make<br /> better decisions regarding revenue,
+                    customer<br />
+                    experience, and overall efficiency.</p>
+            </div>
+
+            <div class="card">
+                <p>10k+<br> </p>
+                <p>314<br> </p>
+                <p>12M+<br></p>
+            </div>
+            <div class="card2">
+                <p>companies</p>
+                <p>templates</p>
+                <p>queries</p>
+
+            </div>
+        </div>
+
+    </div>
+            <div class="attribution">
+                Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+                Coded by <a href="https://github.com/zaidk9243" target="_blank"> <strong>Zaid Khan</strong></a>
+            </div>
+</body>
+
+</html>
